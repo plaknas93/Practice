@@ -1,0 +1,79 @@
+---
+title: "CENTRAL LIMIT THEOREM IN ACTION"
+author: "RJ Neel"
+date: "6/17/2020"
+output:
+  html_document:
+    css: style.css
+---
+
+#Estimating the average wage for a population using a sample
+
+```{r arrest, echo=FALSE}
+library(wooldridge)
+library(kableExtra)
+library(broom)
+data=wage1
+# kable(head(data)) %>% kable_styling(full_width = F)
+```
+The *wage1* dataset contains **`r nrow(data)`** individuals. This will be our defined population. The average wage per person is **`r round(mean(wage1$wage),2)`**. The population variance is **`r round(var(wage1$wage),2)`** and the standard deviation is **`r round(sd(wage1$wage),2)`**
+
+
+## Now we take 1000 samples of 50.   
+```{r,echo=FALSE}
+all_samples=0
+m=0
+my_sample_mean=0
+my_sample_sd=0
+for(i in 1:1000)
+{
+  my_sample=sample(data$wage,50)
+  my_sample_mean[i]= mean(my_sample)
+  my_sample_sd[i]=sd(my_sample)
+  all_samples[i]=list(my_sample)
+}
+```  
+  
+The first of this sample looks like:
+```{r,echo=FALSE}
+all_samples[1] #First Sample
+# my_sample_mean[1] #First Sample mean
+# my_sample_sd[1] #First Sample mean
+
+# sam1= as.numeric(unlist(all_samples[1])) #Converting sample 1 to numeric
+# sam1 #Same as all_samples[1]
+# mean(sam1)  #Same as all_samples[1]
+# sd(sam1) #Same as all_samples[1]
+```
+  
+The mean of this sample is **`r round(my_sample_mean[1],2)`** and standard deviation is **`r round(sd(my_sample_sd[1]),2)`**.
+
+## Next we plot the sampling distribution of all sample means
+```{r, echo=F}
+library(ggplot2)
+sam_no=1:1000
+d=data.frame(sam_no,my_sample_mean)
+kable(head(d),digits = 2) %>% kable_styling(bootstrap_options = "striped",full_width = F)
+
+summary(d$my_sample_mean)
+
+x=seq(4, 8, length.out=100)
+df=with(d, data.frame(x = x, y = dnorm(x, mean(d$my_sample_mean), sd(d$my_sample_mean))))
+
+ggplot(data = d,aes(x=my_sample_mean,y=..density..))+geom_histogram(fill='salmon',col='red')+ geom_vline(aes(xintercept=mean(my_sample_mean, na.rm=T)),color="black", linetype="dashed", size=1)+theme_bw()+ggtitle("Sampling Distrbution of all 1000 sample means")+geom_line(data = df, aes(x = x, y = y), color = "black")+xlab("1000 Sample means")
+
+ggplot(data = d,aes(x=my_sample_mean))+geom_density(col='red')+geom_vline(aes(xintercept=mean(my_sample_mean, na.rm=T)),color="black", linetype="dashed", size=1)+theme_bw()+ggtitle("Sampling Distrbution of all 1000 sample means")
+```
+  
+The mean of the sampling distrbution is **`r round(mean(my_sample_mean),2)`** which is identical to the mean of the population **`r round(mean(wage1$wage),2)`**
+
+To summarize,
+```{r, echo=FALSE}
+info=c("Population","Sampling Distribution","Sample")
+m=c(round(mean(wage1$wage),2),mean(my_sample_mean),my_sample_mean[1])
+s=c(round(sd(wage1$wage),2),sd(my_sample_mean),my_sample_sd[1])
+d2=data.frame(info, mean=m,sd=s)
+kable(d2,digits = 2)%>% kable_styling(bootstrap_options = "striped", full_width = F)
+```
+The standard error estimate obtained from the sample is **`r round(my_sample_sd[1]/sqrt(nrow(data)),2)`**
+
