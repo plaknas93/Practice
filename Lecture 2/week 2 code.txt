@@ -1,0 +1,120 @@
+#install library
+library(readr)
+library(readxl)
+library(dplyr)
+####creating working directory####
+#please save the files in working directory
+setwd("E:/MY PRACTICE/RRRRR PRACTICE/workshop content/INTRODUCTION TO R - Copy")
+getwd()
+###
+mydata1=read.csv("mmc1.csv")
+summary(mydata1)
+head(mydata1)
+mydata=read_csv("mmc1.csv")
+#summary will give 
+summary(mydata)
+View(mydata) # Displays the dataset in a separate window
+head(mydata) # Lists the first 6 rows of the dataset
+tail(mydata) # Lists the last 6 rows of the dataset
+#loading incomplete data sets
+mydata2=read_excel("incompletedata.xlsx")
+summary(mydata2)#can visualize nas
+any(is.na(mydata2))
+#Creating a new dataset without missing values:
+newdata <- na.omit(mydata2)
+dim(mydata2)
+dim(newdata)
+#if you dont want to miss the obeservations, use impute function
+library(Hmisc)
+install.packages("Hmisc")
+impute(mydata2$Ident1,mean)
+impute(mydata2$Ident1,median)
+impute(mydata2$Ident1,sd)
+#impute(mydata$Age,a specific no/mode)
+# Ignoring missing values while building lm model
+#lm(mpg ~ cyl + disp, data=mtcars, na.action=na.omit)
+####using mice package####
+install.packages("mice")
+library(mice)
+md.pattern(mydata2)
+# Imputing the values using mice
+#m - Refers to 5 imputed data sets
+#maxit - Refers to no. of iterations taken to impute missing values
+#method - Refers to method used in imputation. we used predictive mean matching.
+?mice
+miceimputed_mydata2<- mice(mydata2, m=5, method = 'pmm', seed = 101)
+# checking the summary
+summary(imputed_mydata2)
+
+# Checking imputed values of
+imputed_mydata2$imp
+#Since there are 5 imputed data sets, 
+#you can select any using complete() function.
+
+#get complete data ( 2nd out of 5)
+completeData <- complete(imputed_mydata2,2)
+
+
+#load the mmc1 file
+head(mydata)
+####introduction to dplyr####
+library(dplyr)
+#sampling data using sample function
+mydata.sample=sample_n(mydata,100)
+# Select random rows by defining a percentage
+mydata.sample1=sample_frac(mydata,.2)
+names(mydata)
+mydata.descr=select(mydata,gender,age,education,profession)
+mydata.descr %>%
+  group_by(gender)%>%
+  summarise(number.of.sample=n(),percentage=(number.of.sample/381)*100)
+mydata.descr %>%
+  group_by(age)%>%
+  summarise(number.of.sample=n(),percentage=(number.of.sample/381)*100)
+mydata.descr %>%
+  group_by(education)%>%
+  summarise(number.of.sample=n(),percentage=(number.of.sample/381)*100)
+mydata.descr %>%
+  group_by(profession)%>%
+  summarise(number.of.sample=n(),percentage=(number.of.sample/381)*100)
+
+#preparing data for regression using mutate function
+mydata=read_csv("mmc1.csv")
+names(mydata)
+summary(mydata)
+str(mydata)
+mydata.new=mydata %>%
+  #select(Ident1,Ident2,Ident3)%>%
+  mutate(ident=(Ident1+Ident2+Ident3)/3
+  ,inter=(Inter1+Inter2+Inter3)/3,
+         comp=(Comp1+Comp2+Comp3)/3,pjoy=(Pjoy1+Pjoy2+Pjoy3)/3,
+         as=(AS1+AS2+AS3+AS4)/4,am=(AM1+AM2+AM3)/3,pr=(PR1+PR3+PR4)/3)
+  
+names(mydata.new)
+mydata.new=mydata.new %>%
+  select(ident,inter,comp,pjoy,as,am,pr)
+cor(mydata.new)
+model1=lm(pjoy~ident+inter+comp,data=mydata.new)
+summary(model1)
+model2=lm(as~pjoy,data=mydata.new)
+summary(model2)
+model3=lm(as~ident+inter+comp+pjoy+pjoy*ident+pjoy*inter+pjoy*comp,data=mydata.new)
+summary(model3)
+getwd()
+
+####tourism data####
+tdata=read_excel("hotelreviewsforpractice.xlsx")
+str(tdata)
+tdata$review_date=as.Date.POSIXct(tdata$review_date,"%m/%d/%Y")
+tdata.y=tdata%>%
+  filter(review_date>"2018-04-01",review_date<"2019-04-01")
+names(tdata.y)
+ttech=tdata.y%>%
+  group_by(code)%>%
+  summarise(r.vol=n(),r.val=mean(rating),r.var=sd(rating),
+            tman.reply=sum(hotel_reply),rr=tman.reply/r.vol)
+tdata2=read_excel("hotelreviewsforpractice.xlsx",sheet = 2)
+tfull=cbind(ttech,tdata2)
+names(tfull)
+mod1=lm(r.vol~r.val+r.var+tman.reply+rr,data=tfull)
+summary(mod1)

@@ -1,0 +1,465 @@
+Benefits of Enterprise Risk Management: A Systematic Review of Literature
+Abstract:
+Enterprise Risk Management (ERM) has gained increasing traction from investors, lenders, and regulators alike because of the increasing complexity of risks, higher frequency of uncertain events, and ERM’s perceived and promised benefits and transparency. However, the debate over the tangibility of these benefits still lingers. Calls from several scholars specifically requesting the extending of academic body of knowledge on benefits of ERM motivates this research. Through this systematic review of the literature, we present the findings on the benefits of ERM. The review examines the academic disciplines of journals publishing ERM studies and their H Indices. The research articles were analyzed for their subject domains, geographic scope, and methodology used in exploring the relationship between ERM adoption and its benefits to the firm. The studies were primarily from the field of Accounting, Finance, Management, Corporate Governance, And Strategy. The existing literature confirms the difficulties in recognizing the tangible benefits of ERM primarily due to the difference of opinions among Management and Accounting & Finance scholars as to what should constitute benefits.
+Nevertheless, this study bridges this gap by presenting a theoretical framework encompassing both Management and Accounting & Finance viewpoints. Most Accounting & Finance studies rely on a quantitative approach with mostly secondary but occasionally primary data. Management studies almost exclusively rely on a qualitative approach with primary data. Regression models and case studies are preferred methodologies to assess the relationship between ERM and its benefits among quantitative studies and qualitative studies, respectively. A gap in knowledge is presented around the assessment of ERM benefits, and extending the scope of studies to include developing countries like India. To conclude, the paper confirms the benefits of an agile ERM but underscores the vivid interpretations of its benefits owing to the different outcomes desired by various stakeholders.
+Keywords:
+Enterprise risk management, ERM, firm value, performance, benefits, impact, COVID19, Black Swans
+1. INTRODUCTION
+As the COVID-19 pandemic and the worldwide lockdowns took center stage, the business world once again found itself in grave perils. Not long ago, the global financial crisis (GFC) of 2007-09 had the business world riddled with uncertainty and clasping for the Central Bank’s intervention for survival. Back then, it was described as a rare “black swan” – events characterized by shallow frequencies but severe outcomes (Aven, 2013). The previous such sighting of a black swan was the Great Depression of the 1930s. However, the COVID-19 black swan appeared only 12 years after the GFC. These are events that have enormous macroeconomic consequences and often issue no prior warnings, nor any of the current models are capable of envisaging such events. Besides these events, frequent scams and scandals like Enron, Worldcom, Satyam, The Emissiongate, or Wirecard continue to barrage the financial world. These were not unavoidable minor infractions but a direct consequence of poor corporate governance (Brickey, 2003; Siano, Vollero, Conte, & Amabile, 2017). Failure of internal controls has also manifested into calamities. A significant highlight of GFC was the unique nature of the liquidity crisis that it triggered. Bear Sterns, AIG, Northern Rock prima facie had very little exposure to losses through an intricate set of insurance and reinsurance contracts that these firms used to hedge their risks. From their standpoint, their risk models had predicted low-risk exposures. However, the aggregate risk was unknown until all the simultaneous defaults triggered bank runs, which in turn led to the breakdown of the entire financial system in the western world (Mishkin, 2011). Firms are not just victims of rogue management or unforeseeable financial losses. Failure to incorporate changing technological trends can also drive a firm’s products obsolete. Nokia once dominated the global cellphone market. At one point, it accounted for nearly half of all global cellphone sales, but it failed to keep pace with the iPhone and the Android ecosystem. Ultimately it sold off its cellphone business (Alcacer, Khanna, & Snively, 2014). India’s homegrown mobile giants like Micromax and Karbonn too failed to anticipate the 4G revolution and lost market share to Chinese rivals.
+Firms face various risks. The above paragraph highlights four prominent risks: the Pure risks – arising from natural events beyond a firm’s control (Gahin, 1967); The operational risks- risk resulting from a firm’s internal activities (Power, 2005); The financial risks - the inability of the firm to pay its obligations (de Goede, 2004); and the strategic risks- strategic decisions and directions that are vital to a firm’s survival (Baird & Thomas, 1985). Historically, risk management (RM) has focused on these four prominent risks and the various sub-risks that are encompassed in these more substantial umbrella risks in silos. Ever since the first academic text on RM – “Risk Management in Business Enterprise” published in 1963 (Mehr & Hedges, 1963), RM has evolved as a multifaceted combat mechanism to counter risks. Specialized managerial roles emerged in the organizations throughout the post-War period that witnessed Globalization and Liberalization. This decentralization of tasks led to decentralized handling of risks. It benefitted RM and helped its epistemology expand. Specialized techniques and models were developed to handle various risks faced within multiple departments (Dionne, 2013). However, events of the late 1990s and early 2000s raised serious questions about the decentralized approach to managing risks.
+While decentralization of roles helps firms achieve productivity and efficiency, the same does not apply to risk. Within a firm, roles and responsibilities are clearly demarcated, and specialization enriches the learning curve. However, frontiers for risks are fuzzy and unmarked.
+Risks can transform and trigger one another. Risks are also an inherent part of the firm’s strategy; hence they need to be measured in terms of organizational objectives (Dickinson, 2001). Scandals and bankruptcies like Enron, WorldCom, AIG, Lehman Brothers, General Motors, and Chrysler Motors from the US; Barings Bank, Northern Rock, and Thomas Cook from the UK; Schlecker and Wirecard from Germany; and Satyam and Videocon from India; have cost investors and lenders billions of dollars. They were all victims of a system of poor corporate governance and inadequate risk management that was inept to handle the complex mesh of intertwined risks. The job losses, loss of pensions, and the fear of a general failure of confidence in financial markets forced other stakeholders like the regulators to react. Apart from legislation and stringent actions, Stakeholders deliberated over more comprehensive and transparent tools to mitigate these problems. Focus now shifted from silos style handling of risks to all-encompassing holistic risk management.
+Enterprise Risk management (ERM) appeared as a natural contender to promote transparency and actively detect and manage risks while ensuring firm performance and increasing firm value amidst increasingly sophisticated threats and constant turbulence. The notion of ERM first emerged in the 1990s when the first wave of scandals and events such as Mirror Group Newspapers, Barings Bank, Polly Peck, Maxwell, Guinness, the 1992 Indian stock market scam and the 1995 Oklahoma City bombings rocked the financial world. These events had consequences that reverberated way beyond their geographies (Arena, Arnaboldi, & Azzone, 2010). These inspired several publications on corporate governance reforms and legislations – Financial Aspects of Corporate Governance (commonly known as “The Cadbury Report”) by the Cadbury Committee in the UK in 1992, the Internal Control-Integrated Framework (IC-IF) by COSO in 1992 in the US, the Janakariman Committee Report by Janakariman Committee in India in 1993, the King Report on Corporate Governance by the King Committee on Corporate Governance in South Africa in 1994, the Criteria of Control framework by the Canadian Institute of Chartered Accountants in Canada in 1995, and the Internal Control: Guidance for Directors on the Combined Code (commonly known as the “Turnbull Report”) by the London Stock Exchange in the UK in 1999. They specifically encouraged firms to move beyond the financial risks sphere and adopt a broader range of risks. By the early 2000s, the notion of a holistic risk management framework took a more concrete shape. This was in part because of the accounting scandals of the early 2000s, the aftermath of the dotcom bubble, and shareholders and interest groups emphasizing transparency and managerial accountability. The US Regulators too stepped in with Sarbanes-Oxley Act (SOX) in 2002. It specifically, through its section 404, directed firms to enhance internal controls. Thus, ERM like risk management setup was the talking point everywhere.
+The core notion of ERM is to adopt a portfolio approach to managing risks. ERM promised to lower the firm’s total risk by building resilience against systematic failures and monitoring growth opportunities. This would optimize performance and consequently increase a firm’s value and longevity (Hoyt & Liebenberg, 2011; Sprčić, Kožul, & Pecina, 2015). Committee of Sponsoring Organizations of the Treadway Commission (COSO) provided the first formal framework for ERM in 2004 (Bento, Mertins, & White, 2018; Hayne & Free, 2014). Australia based SAI-Global followed suit with AS/NZS 4360:2004 (2004) risk management framework. International Organization for Standardization (ISO) released its code for holistic risk management with ISO:31000 first published in 2009. The latest frameworks from COSO and ISO were released in 2017 and 2018, respectively (“Guidance on Enterprise Risk
+Management,” n.d.; “ISO - ISO 31000:2018 - Risk management — Guidelines,” n.d.). Once professional bodies endorsed ERM, Practitioners and Consultants became its spokespersons, resulting in a spike in the number of firms adopting ERM.
+Google trend analytics confirms interest in ERM. Figure 1 shows interest in ERM among Netizens peaked in 2004. Over time it has declined because many firms adopted ERM during this period. Since 2012, the trend has been stable. Amidst COVID 19 pandemic, it once again saw a spike. Figure 2 and Figure 3 show the region and city wise interest in ERM, respectively. It is surprising to note the relatively high interest in ERM among developing countries of South Asia, South East Asia, and Africa, outnumbering Western Europe. Among cities, ERM was most widely searched (as measured by a relative scale) in Accra (Ghana), Johannesburg (South Africa), Nairobi (Kenya), and Singapore city. Mumbai, Bengaluru, Delhi, and Chennai accounted for most of India’s ERM popularity. The top 5 related queries with ERM are “ERM meaning”, “what is enterprise” ,“what is enterprise risk”, “what is risk management” and “what is enterprise risk management”. The top 5 related topics are “Deloitte”, “Internal audit”, “Risk assessment”, “Strategy” and “Company”.
+Figure 1: Web search trend analysis for “Enterprise Risk Management”. Source: (“Enterprise risk management - Explore - Google Trends,” n.d.)
+NOTE: Interest over time represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term.
+0
+0
+20
+20
+40
+40
+60
+60
+80
+80
+100
+100
+120
+120
+2004-01
+2004-01
+2004-07
+07
+2005-01
+2005-2005-07
+2006-01
+2006-2006-07
+2007-01
+2007-2007-07
+2008-01
+2008-2008-07
+2009-01
+2009-2009-07
+2010-01
+2010-2010-07
+2011-01
+2011-2011-07
+2012-01
+2012-2012-07
+2013-01
+2013-2013-07
+2014-01
+2014-2014-07
+2015-01
+2015-2015-07
+2016-01
+2016-2016-07
+2017-01
+2017-2017-07
+2018-01
+2018-2018-07
+2019-01
+2019-2019-07
+2020-01
+2020-2020-07
+Interest over Time
+Interest over Time
+Months (January, 2004 to July, 2020)
+Months (January, 2004 to July, 2020)
+Enterprise risk management: (Worldwide)
+Enterprise risk management: (Worldwide)
+Figure 2: Interest by Regions for “Enterprise Risk Management”. Source: (“Enterprise risk management - Explore - Google Trends,” n.d.)
+Figure 3: Interest by Cities for “Enterprise Risk Management”. Source: (“Enterprise risk management - Explore - Google Trends,” n.d.)
+Note: Interest by region - Shows in which location the term “Enterprise Risk Management” was most popular during the specified time frame (January 2004 to July 2020). Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for “bananas” will get twice the score of a giant country where only 40% of the queries are for “bananas”
+Serious academic interest surged in ERM at the start of the new Millenium (Dickinson, 2001). As of July 2020, there are over 33,900 search results for “Enterprise Risk Management” on Google Scholar (“Google Scholar,” n.d.). Despite the widespread enthusiasm for ERM among stakeholders, the empirical evidence from academic research on the benefits of ERM remains murky. Studies from (Beasley, Pagach, & Warr, 2008; Hansen & Andersen, 2014; Hoyt & Liebenberg, 2011; Liebenberg & Hoyt, 2003) confirm ERM’s roles in value creation, risk reduction, performance enhancement, and strategic decision making. The Hydro One case study underscores the role of ERM in strategic planning and capital budgeting (Mikes, 2008). However, all these studies are restricted to North America. Other researchers have criticized ERM as the latest management fad and noted that the research is centric to only financial sector. Studies from (Arena, Arnaboldi, & Azzone, 2011; M. McShane, 2018; M. K. McShane, Nair, & Rustambekov, 2011; Mikes, 2009; Power, 2009) have found mixed to no evidence of ERM’s role in delivering benefits to the firm. The criticism has only sharpened post-2007 when several firms boasting high standards of holistic risk management failed in the face of GFC. Besides, researchers have also pointed out issues of endogeneity with ERM research (Gatzert & Martin, 2015). These contradictory findings have led to the following research questions regarding ERM – What are the characteristics of ERM? What are the tools for measuring ERM? How are the benefits of ERM empirically measured? Which geographic regions are yet to research on ERM? And what are the methods used to measure the benefits of adopting ERM?
+The academic research on ERM can be divided across three categories – (1) ERM definition, process, and conceptualization; (2) Measurement for ERM in a firm; and (3) Benefits of ERM. Scholars have called explicitly for the extension of ERM literature in the three categories above (Bromiley, McShane, Nair, & Rustambekov, 2015). The definition and conceptualization of ERM is an ongoing process. The latest compilation of literature on the Measurement of ERM was in 2019 (Linke & Florio, 2019). However, there is no compilation of research on ERM benefits to the best of our knowledge. Motivated by this fact, calls from scholars, and the growing importance of the topic, particularly for the post-COVID19 period, this paper performs a systematic literature review on the benefits and impact of ERM on the firm. The study begins with a preliminary analysis of journals publishing research on ERM adoption and its benefits. The study reviews papers from leading peer-reviewed publication houses – ScienceDirect (Elsevier), Taylor & Francis, Inderscience, and Emeraldinsights. The study then assesses the academic disciplines, H indices, SCI scores, and ABDC rankings of the publishing journals. These articles are assessed to note their number of citations, geographic scope, academic discipline, and most important - methodology adopted to evaluate the benefits of adopting ERM. The study segregates articles base on their quantitative and qualitative orientation and philosophical worldview.
+Our findings endorse ERM’s role in value creation, risk reduction, enhanced performance, and decision making. However, it highlights the stark expectations of ERM by Management and Accounting & Finance scholars. A unified theoretical framework is presented to resolve this conflict. To the best of our knowledge, this is the first paper to systematically review the role of ERM in creating benefits to the firm. This Article is prearranged as follows: Section 2 describes the research design adopted to conduct this study. Section 3 and Section 4 compiles the findings of this study and present the theoretical framework, respectively. Section 5 addresses the limitations of the research and offers future research directions in the field of ERM.
+2. RESEARCH DESIGN
+2.1 Article Search
+This systematic literature review selects articles from ScienceDirect, Taylor & Francis, Inderscience, and Emeraldinsights. These four databases are the largest repositories of high-quality peer-reviewed journals. We entered the keywords “Enterprise risk management”, “ERM”, “ERM and firm value”, and “ERM and performance”. We obtained over 300 results. We narrowed the number of articles specific to our research question of determining the ERM process and benefits associated with its adoption. We briefly analyzed the content of each of these papers. Finally, We shortlisted 127 research articles based on their relevance to our research question, i.e., To examine the benefits/impact for firms adopting ERM. These articles were chosen based on the journal’s H Index, SCI score, ABDC ranking, and the Article’s number of citations. H Index and SCI score quantify a journal’s scientific productivity and impact. The Australian Business Deans Council (ABDC) Journal Quality ranking assesses top journals relating to Business and Taxation Law; Economics; Finance including Actuarial Studies; Information Systems; Management, Commercial Services, and Transport and Logistics; Marketing and Tourism; and other areas (“2019 ABDC Journal Quality List - Australian Business Deans Council,” n.d.). The journals were classified based on the Schimago subject area and category. The number of citations for each Article was obtained from Google Scholar. The complete list was finalized on July 18, 2020 (Figure 4).
+Figure 4: No. of articles by Database
+2.2 Methodology for Content Analysis
+In line with our research question, the articles were chosen if they discussed the topic of benefits of ERM. The journals publishing these articles were cross-checked in the Scimago and ABDC list. Only Articles with an H Index verified in Scimago were selected. ABDC list was used to assess the quality of research. We began by segregating journals according to their primary disciplines to examine the primary audience interested in ERM. We divided the articles into three research categories: definitional and descriptive, analytical and deductive, and conceptual and inductive. These articles were then scouted for their geographical scope and methodologies employed. The next section describes the findings of our study.
+Keywords:
+Keywords:
+“Enterprise risk management”,
+“Enterprise risk management”,
+“ERM”,
+“ERM”,
+“ERM and firm value”,
+“ERM and firm value”,
+and
+and
+“ERM and performance”
+“ERM and performance”
+ScienceDirect:
+ScienceDirect: 5050
+Taylor &
+Taylor & Francis: Francis: 3535
+Inderscience:
+Inderscience: 1515
+Emeraldinsigh
+Emeraldinsights: ts: 2727
+3. RESEARCH FINDINGS
+3.1 The ERM Audience
+Since endorsement by COSO in 2004 and ISO in 2009, the academic interest in ERM has grown sharply (See Figure 5). Figure 6 indicates the primary subject areas of Journals publishing Articles on Benefits of ERM. Accounting and its allied domains of Finance and Economics account for 40% of the primary intended audience of the benefits of ERM research studies. Management and its allied fields of Strategy, Marketing, HR account for 26% of the primary intended audience. The H Indices of Journals publishing the 127 studies under consideration ranged from 9 to 181.
+Figure 5: Publications on ERM by year
+Figure 6: Top 15 Scimago Subject Area 1 of the Journals publishing Articles on benefits of ERM
+3.2 Articles under review by Discipline, Citations, Geography and Industrial sectors
+Figure 7 shows the word cloud of keywords used by authors in the research articles of this study. Beyond the primary subject areas of the journals, we conducted our separate analysis to note the subject domains of each of the Articles. About 45% of the Articles are from the Finance and Accounting domain, whereas Management and its allied areas like Corporate Governance and Strategy account for 48% of research Figure 8.
+0
+0
+2
+2
+4
+4
+6
+6
+8
+8
+10
+10
+12
+12
+14
+14
+16
+16
+18
+18
+20
+20
+2001
+2001
+2005
+2005
+2006
+2006
+2007
+2007
+2008
+2008
+2009
+2009
+2010
+2010
+2011
+2011
+2012
+2012
+2013
+2013
+2014
+2014
+2015
+2015
+2016
+2016
+2017
+2017
+2018
+2018
+2019
+2019
+2020
+2020
+No. of Publictions
+No. of Publictions
+Year
+Year
+0%
+0%
+5%
+5%
+10%
+10%
+15%
+15%
+20%
+20%
+25%
+25%
+Accounting
+Accounting
+Business, Management and Accounting
+Business, Management and Accounting
+Economics and Econometrics
+Economics and Econometrics
+Economics, Econometrics and Finance
+Economics, Econometrics and Finance
+Industrial and Manufacturing Engineering
+Industrial and Manufacturing Engineering
+Computer Science
+Computer Science
+Health Policy
+Health Policy
+Software
+Software
+Figure 7: Word cloud of the keywords used in studies under consideration
+Figure 8: Articles under consideration by their subject disciplines
+As previously noted, This study divides the Articles into three categories- definitional and descriptive, analytical and deductive, and conceptual and inductive. Definition and Descriptive studies involve a general review of ERM and its benefits. 27 (or 21%) Articles represented this category. Most of these Articles were from high-quality journals (ranked A* or A in ABDC List). They also had a high number of citations (Average Citations = 91). The Analytical and Deductive category included articles involving postpositivist worldview and quantitative
+Finance
+Finance
+Accounting
+Accounting
+Management
+Management
+Engineering
+Engineering
+CG
+CG
+Strategy
+Strategy
+Computer Science
+Computer Science
+Health
+Health
+research. 59 (or 46%) Articles represented the category and had, on average, 56 citations. The Conceptual and Inductive Category accounted for 41 (32%) Articles involving a constructivist worldview and qualitative research. The average number of citations in this category was 59. Table 1 lists some studies from the Analytical and Deductive and Conceptual and Inductive groups.
+Author
+Article Title
+Journal
+Citations / H Index / ABDC Ranking
+Approach / Data
+Region
+(Gordon, Loeb, & Tseng, 2009)
+Enterprise risk management and firm performance: A contingency perspective
+Journal of Accounting and Public Policy
+598 / 70 / A
+Quantitative / Secondary
+US
+(Arena et al., 2010)
+The organizational dynamics of Enterprise Risk Management
+Accounting, Organizations and Society
+422 / 125 / A*
+Qualitative / Primary
+Italy
+(Paape & Speklé, 2012)
+The Adoption and Design of Enterprise Risk Management Practices: An Empirical Study
+European Accounting Review
+280 / 70 / A*
+Quantitative / Primary
+Netherlands
+(D. Wu & Olson, 2010)
+Enterprise risk management: Coping with model risk in a large bank
+Journal of the Operational Research Society
+162 / 101 / A
+Qualitative / Primary
+Canada
+(Eckles, Hoyt, & Miller, 2014)
+Reprint of: The impact of enterprise risk management on the marginal cost of reducing risk: Evidence from the insurance industry
+Journal of Banking and Finance
+151 / 148 / A*
+Quantitative / Secondary
+US
+Table 1 Top 5 relevant articles on the benefits of adopting ERM
+Previous Literature surveys on ERM have highlighted the predominance of the US-based and Financial sector centric studies (Bromiley et al., 2015; Mikes, 2006). Although US focussed studies account for a modest 27% of all research articles in this literature review, Other noteworthy contributors to ERM research are studies based on Italy (8%), Germany (6%), China(6%), and Australia (5%). We also find 29 other geographic regions and at least 35 different countries. Research on ERM has expanded to Brazil, Columbia, UK, The Netherlands, Poland, Hungary, Sweden, Croatia, Palestine, Iran, Pakistan, South Korea, Malaysia, Singapore, and Taiwan. Financial sector – Banking and Insurance were the earliest adopter of ERM. It is a recurring sector in many of the articles surveyed in this paper. Most analytical and deductive studies included in this review focus on listed companies, which consist of a diverse set of industrial sectors, Public sector undertakings (PSUs), Oil, Energy, Manufacturing, and Construction firms are also quite popular among ERM researchers. Recent articles also focus on the health and hospitality sectors confirming ERM’s pan-industry popularity and acceptance as a good management practice.
+3.3 Benefits of Implementing ERM: Evidence from Qualitative Research
+Contrary to our expectations, almost a third of the total studies adopted a Conceptual and Deductive research approach. 41% of the Articles were Qualitative studies (if we ignore the Definitional and Descriptive category). Most of these studies are from the Management domain. Many of these studies underscore ERM’s role in information dissemination and managerial decision making (Meidell & Kaarbøe, 2017; Oliva, 2016; Desheng Wu, Olson, & Dolgui, 2015). However, not all firms were enthusiastic about ERM despite its implementation. Some managers saw it as an unnecessary regulatory burden or directive from the Board (Arena et al., 2011).
+Many Studies emphasized on building a risk culture within the organization to enable channels of communication and timely detection of threats. A common theme across many Research Articles was the use of a formal risk management framework like COSO ERM/IF or ISO 31000. Despite ERM’s holistic approach to risk management, its primary application was in strategy setting. Many firms rated product obsolescence as the most critical threat. Hence, Research and Development were an essential element of risk management. They also saw ERM as continuous, evolving, and agile(Tekathen & Dechow, 2013). Many argued that Effective communication reduced the overall enterprise risk and helped the firm achieve superior performance not just financially but in terms of excellent customer feedback and brand loyalty. These studies viewed ERM as a resource. Frequently mentioned management theories in qualitative studies were resource-based view, institutional theory, isomorphism, resource-dependent theory, actor-network theory, fads and fashion theory, and diffusion of innovation theory. The theoretical framework is depicted in Figure 9.
+An overwhelming majority of the Articles in this approach used case studies. Other methodologies included Phenomenological research, Ethnographic research, and interviews with Focus groups. Interviews and Surveys were the primary tools of data collection.
+Figure 9 ERM Theoretical Framework: A Management Perspective
+3.4 Benefits of Implementing ERM: Evidence from Quantitative Research
+About 46% of all studies represented the Analytical and Deductive category. About 59% of the Articles used a Quantitative approach (when measured only against Qualitative studies). The relative share of Quantitative studies in ERM has declined due to the surge in interest in Qualitative research post-GFC. During GFC, quantitative models were severely criticized for underreporting risks (Mishkin, 2011). Nevertheless, the use of a quantitative approach is widespread among Accounting & Finance Scholars. Accountants and Auditors were the pioneers in ERM. In many firms, the Accounting and Finance departments handle risk management. Utility theory, Prospect theory, Agency theory, Stakeholder theory, and Portfolio theory have shaped the Accounting and Finance perspective of ERM. It relies on rigid interpretation and seeks tangible outcomes. Many of the initial Quantitative studies used binary measures in the form of appointment Chief Risk Officer (CRO) or the constitution of a Risk Management Committee as a proxy for ERM (Liebenberg & Hoyt, 2003; Lundqvist, 2015). However, recent studies use a more pragmatic scale that determines the level of ERM. This scale is constructed based on either secondary or primary data. Most secondary data ERM scales use the COSO ERM/IF framework to measure ERM across Strategy, Compliance, Reporting, and Operations. The outcome of ERM is measured in terms of Firm value or Firm performance. Some studies distinguish the two as long term and short term outcomes, whereas others use the two terms interchangeably. In our Literature Review, we reserve firm performance for Management Studies and use firm value for Accounting and Finance. Table 2 summarizes the impact or benefits of ERM implementation.
+Articles post-2009, advocate a more nuanced and less rigid approach to evaluate ERM in a firm setting. As seen in Table 2, there is a consistent acknowledgment of value creation and an overall reduction of enterprise risk. The theoretical framework is depicted in Figure 10.
+Regression models are the most widely used methodologies. More than half of the studies using Regression used the Ordinary Least Square Model. Other popular models include Maximum Likelihood, Cox, Generalized Linear, Probit, and Poisson Regression models. Structural Equation Modelling models were popular with articles involving primary data. Data Envelop Analysis and Factor Analysis were other recurring models. Most Quantitative Research Articles used secondary data.
+Figure 10: ERM Theoretical Framework: An Accounting and Finance Perspective
+Impact of ERM on Performance Measures (ERM as
+The Causal Variable)
+Sr No
+Description
+Variable
+Effect
+Scope
+Industry
+Methodology
+Reference
+1
+Firm Value
+Tobin’s Q, ROA
+Increase
+US, UK, Canada, Australia
+Listed Firms
+Regression (OLS)
+(Farrell & Gallagher, 2019)
+2
+Firm Value
+Tobin’s Q
+Increase
+Germany
+Listed Firms
+Regression (Cox)
+(Lechner & Gatzert, 2018)
+3
+Firm Value
+Tobin’s Q
+Increase
+Italy
+Non-Financial Listed firms
+Regression (OLS)
+(Florio & Leoni, 2017)
+4
+Firm Value
+Tobin’s Q
+Increase
+UK
+Listed Firms
+Regression (OLS)
+(Malik, Zaman, & Buckby, 2020)
+5
+Value (LR)
+Book Value
+Inconclusive
+Poland and Hungary
+Energy and Fuel
+Descriptive Statistics
+(Jonek-Kowalska, 2019)
+Economic value added
+Market Value
+Value (SR)
+Net Profit
+Inconclusive
+Percentage Change in Net Profit (YoY)
+ROA
+ROE
+6
+Solvency (Riskiness)
+Solvency ratio
+Increase
+EU
+Insurance
+Regression (Probit)
+(Nguyen & Vo, 2019)
+7
+Corporate Reputation
+Reputation Index
+Increase
+Spain
+Listed Firms
+Regression (Tobit)
+(Pérez-Cornejo, de Quevedo-Puente, & Delgado-García, 2019)
+Sr No
+Description
+Variable
+Effect
+Scope
+Industry
+Methodology
+Reference
+8
+Firm Performance
+Tobin’s Q
+Increase
+Nigeria
+Financial Institutions
+Regression (OLS)
+(Ojeka et al., 2019)
+ROE, ROA
+decrease
+9
+Firm Cost
+Administrative cost, operational cost, and cash conversion cycle
+Reduce
+China
+Listed Manufacturing Firms
+Pearson Correlation and Univariate differences
+(Zou & Hassan, 2017)
+Firm Efficiency
+Inventory turnover, fixed asset turnover
+Increase
+10
+Risk Disclosures
+Risk Disclosure
+Increase
+Canada
+Listed Firms
+Descriptive Statistics
+(Maingot, Quon, & Zéghal, 2012)
+11
+Return on Capital
+ROE
+Increase
+US
+Non-Financial Listed firms
+Regression (OLS)
+(Callahan & Soileau, 2017)
+ROA
+Increase
+12
+Competitive advantage
+Index based on Primary data
+Increase
+Iran
+Financial Institutions
+SEM
+(Saeidi et al., 2019)
+13
+Firm Performance
+Excess Return
+Increase
+US
+Listed Firms
+Regression (OLS)
+(Gordon et al., 2009)
+Sr No
+Description
+Variable
+Effect
+Scope
+Industry
+Methodology
+Reference
+14
+Firm Risk
+The annualized standard deviation of daily stock returns
+Reduce
+US
+Insurance
+Regression (Probit & OLS)
+(Eckles et al., 2014)
+Firm Performance
+ROA
+Increase
+15
+Accruals estimation error
+Accruals estimation error
+Reduce
+US
+Non-Financial and Non-Utility Listed Firms
+Regression (ML)
+(Johnston & Soileau, 2020)
+16
+Frequency of Operational risk
+The annualized standard deviation of daily stock returns
+Reduce
+US
+Listed Firms
+Regression (Probit, OLS, Poisson)
+(Al-Amri & Davydov, 2016)
+Operational risk severity
+ROA
+Reduce
+17
+Firm Value
+Tobin’s Q
+Increase
+Taiwan
+Financial Institutions
+Regression (ML)
+(Chen, Chuang, Huang, & Shih, 2019)
+Table 2: Impact of adopting ERM on Performance Measures
+4. THEORETICAL FRAMEWORK
+Both Management and Accounting & Finance Scholars, as seen from Quantitative and Qualitative research, agree upon the benefits of ERM. However, Both differ on the constituents of these benefits and the measurement of ERM. Accountants and Finance Scholars seek a rigid measure of ERM based on a universally agreed framework. In contrast, Management Scholars see ERM as a continuously evolving and a unique resource created and developed by the firm to assist in strategic decision making(Kimbrough & Componation, 2009; Tekathen, 2019; Tekathen & Dechow, 2013). In this view presence of a subscription to a framework like COSO-ERM/IF or ISO 31000 confirms ERM, but non-subscription does not confer the absence of ERM. In any case, the unique, idiosyncratic risks faced by each firm would require some customization of any framework. A similar conflict arose with the proposal of global Accounting Standards. After much deliberation, a consensus was achieved, and International Financial Reporting Standards (IFRS) emerged as the principle-based counterpart to the prevailing rules-based domestic standards. Based on the same logic, Figure 11 proposes a hybrid theoretical framework. It allows for principle-based customization without compromising either Managerial or Accounting & Finance perspectives.
+Figure 11: Combined Theoretical Framework
+5. CONCLUDING REMARKS
+5.1 Originality and Value of the Study
+This paper provides a comprehensive and systematic literature review on the benefits of implementing ERM in a firm. It takes into account both Management and Accounting & Finance perspectives on ERM and provides a unified framework. It debunks several gaps identified by ERM Scholars (Beasley, Branson, & Pagach, 2015; Bromiley et al., 2015; Gordon et al., 2009; Power, 2009). Firstly, ERM is not centric just to the US or North America or the whole Western Hemisphere. Overtime is it has expanded geography. This study identifies at least 35 countries. A notable absentee in this list was India. Secondly, ERM is not restricted to only financial sectors. The concept of ERM materialized within the Financial Industry, and
+they were earlier adopters of the holistic approach to risk management because of the high degree of regulation. However, ERM’s potential benefits and transparency have propelled Stakeholders to urge their companies to adopt ERM expanding it to Oil, Natural Gas, Utilities, Energy, Manufacturing, Construction, Hospitality, Healthcare, and even SMEs. This also debunks the notion that ERM is a fad and confirms it to be a trend. The other significant gap in the literature was the supposed dearth of studies from Management scholars. Our analysis reveals that over the last ten years, there has been a considerable surge in research from Management scholars. Contributions from Management Scholars have expanded the epistemology of ERM and opened several new avenues based only on a Mixed methodology approach to measure ERM and gauge its impact on firm performance or value parameters.
+5.2 Limitations of the Study
+One of the critical issues not addressed in this study was the measurement of ERM. It has certainly progressed from a binary measure based on the Chief Risk Officer appointment to a more pragmatic numerical scale based on the structure of the firm’s ERM or its proximity to a known ERM framework (e.g., COSO ERM/IF or ISO 31000). However, the ERM epistemology will gain from a hybrid of the two or a comprehensive measure based on a firm’s industrial and environmental setting. The other critical issue ignored in this study is the impact of ERM on intangible benefits such as Goodwill, brand equity, and intellectual property. The resource-based view of ERM views ERM as an intangible asset of the firm. It is also a continuously evolving process costing both time and money. Despite the plethora of research in the last two decades, ERM research is still in its infancy and will gain from contributions from the above two areas.
+5.3 Future Research Directions
+This Literature review suggests that while ERM has expanded in Geography, the world’s fifth-largest economy with a domestic market capitalization of over $2 Trillion, India, remains a notable exception. As evident from the Google trends, ERM has a large number of interested parties in India. Post-COVID 19, risk management will become critical on account of Global Fiscal and Monetary measures placed to revive the ailing economy. Stakeholder’s push for a more sustainable culture of Corporate Governance will create momentum for implementing ERM. Research on India, South Asia, and other fast transforming developing countries like South Africa, Nigeria, Ghana, Angola, Brazil, and Mexico will be crucial to ERM epistemology. We suggest expanding the scope of ERM to these geographies.
+A prominent feature of this literature review is the inclusion of a large number of qualitative studies. Previously, the absence of qualitative studies was noted as a research gap (Bromiley et al., 2015; Mikes, 2009; Power, 2004). However, the last decade has produced a large number of qualitative studies. Thus, we suggest a mixed methodology approach to measure ERM and its benefits for future studies. Research comprising of both primary and secondary data will allow for a greater practitioner and academic collaboration on ERM. Thus, enriching the ERM learning curve.
+6. REFERENCES

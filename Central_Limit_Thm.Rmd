@@ -1,0 +1,82 @@
+
+#**Verification of Central Limit Theorem**  
+##*Example: Class Scores*
+          
+###**Central Limit Theorem**  
+**Definition**:The central limit theorem states that if you have a population with mean μ and standard deviation σ and take sufficiently large random samples from the population, then the distribution of the sample means will be approximately normally distributed. This will hold true regardless of whether the source population is normal or skewed, provided the sample size is sufficiently large (usually n > 30).   
+If the population is normal, then the theorem holds true even for samples smaller than 30. In fact, this also holds true even if the population is binomial, provided that min(np, n(3-p))> 5, where n is the sample size and p is the probability of success in the population. This means that we can use the normal probability model to quantify uncertainty when making inferences about a population mean based on the sample mean.
+  
+**Example:** Consider the following set of class scores. 
+```{r, echo=FALSE, messages=FALSE, warning=FALSE}
+library(kableExtra)
+library(dplyr)
+data=read.csv(file='D:/RWorks/Practice/central_limit_test_file.csv')
+kbl(data)%>%kable_material(c("striped", "hover")) %>% scroll_box(width = "1050px", height = "400px")
+```
+    
+In this example, the class average score is **`r mean(data$score)%>% round(2)`** and the variance is  **`r sd(data$score)%>% round(2)`**. The distribution of class scores is shown below.    
+```{r, echo=FALSE, messages=FALSE, warning=FALSE}
+library(ggplot2)
+m=mean(data$score) %>% round(2)
+sd=sd(data$score) %>% round(2)
+d2=data.frame('mean'=m,'sd'=sd)
+kbl(d2)%>%kable_material()
+ggplot(data, aes(x=sn,y=score))+geom_point(size=2,col='salmon')
+ggplot(data, aes(x=score))+geom_histogram(fill='salmon')+theme_bw()+xlab('Scores')+ylab('Frequency')+ggtitle('Class Score Distribution')+geom_vline(xintercept = mean(data$score), color = "red", linetype = "longdash")
+```
+  
+**Next**  
+We take 1000 samples of size 30 students each and note their mean and standard deviation
+```{r, echo=FALSE}
+s=0
+avg=0
+s_dev=0
+sam_var=0
+for(i in 1:1000)
+{
+  ss=sample(data$score,30)
+  sam_var[i]=sd(ss)
+  s[i]=list(ss)
+  avg[i]=mean(ss) %>% round(2)
+  s_dev[i]=sd(ss) %>% round(2)
+}
+
+s[1]
+s[2]
+s[10]
+s[100]
+s[1000]
+
+sam_dist=data.frame('sample_no'=1:1000, 'sample_mean'= avg, 'sample_sd'=s_dev) 
+kable(sam_dist)%>%kable_material(c("striped", "hover"))
+
+ggplot(sam_dist,aes(x=avg))+geom_histogram(col='red', fill='salmon')+xlab('Individual Sample mean')+ylab('Frequency')+ggtitle('Sampling Distribution')+geom_vline(xintercept = mean(sam_dist$sample_mean), color = "black", linetype = "longdash")
+sam_dist_mean=mean(sam_dist$sample_mean) %>% round(2)
+sam_dist_sd=sd(sam_dist$sample_mean) %>% round(2)
+
+```
+  
+The mean of the sampling distribution is **`r sam_dist_mean`** and the standard deviation here is **`r `**.
+  
+Comparing with the population  
+```{r, echo=FALSE}
+f_d=data.frame('Population_mean'=m,'Population_sd'=sd,'Sampling_dist_mean'=sam_dist_mean,'Sampling_dist_sd'=sam_dist_sd)
+kable(f_d)%>%kable_material(c("striped", "hover"))
+
+```
+   
+
+**To explore the relation between scores and parental income**  
+````{r, echo=FALSE}
+x=1:30
+s1=as.numeric(unlist(s[1]))
+s2=as.numeric(unlist(s[2]))
+s3=as.numeric(unlist(s[3]))
+s4=as.numeric(unlist(s[4]))
+test_inc=data.frame(x, s1,s2,s3,s4)
+test_inc
+library(ggplot2)
+ggplot(data=test_inc,aes(x))+geom_point(aes(y=s1,col="red"))+geom_point(aes(y=s2),col="orange")+geom_point(aes(y=s3,col="pink"))+geom_point(aes(y=s4,color="salmon"))+ggtitle('Parental Income vs Test scores')+xlab('Parental Income')+ylab('Test Scores')+theme_minimal()
+````
+
+
